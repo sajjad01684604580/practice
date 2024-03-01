@@ -1,6 +1,6 @@
 import Paragraph from "./components/Paragraph"
 
-
+import { FaShoppingCart } from "react-icons/fa";
 function App() {
   
 
@@ -8,6 +8,7 @@ function App() {
     <>
       <Paragraph text="hello"/>
       <Paragraph text="hello" className="text-sm text-an"/>
+      <FaShoppingCart/>
     </>
   )
 }
